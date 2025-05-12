@@ -1,0 +1,29 @@
+/* Hero Section Styling */
+.hero {
+    position: relative;
+    background-image: url('../images/hero-background.jpg'); /* Path to your background image */
+    background-size: cover; /* Cover the entire section */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent image repetition */
+    height: 300px; /* Adjust height as needed */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Vertically center content */
+    align-items: center; /* Horizontally center content */
+    color: white; /* White text color */
+    text-align: center; /* Center-align text */
+    font-family: Arial, sans-serif; /* Font */
+    font-weight: bold; /* Bold text */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Add slight text shadow for visibility */
+}
+
+.hero h2 {
+    font-size: 3rem; /* Large font size for heading */
+    margin: 0; /* Remove margin */
+}
+
+.hero p {
+    font-size: 1.5rem; /* Smaller font size for subtext */
+    font-weight: normal; /* Normal font weight */
+    margin-top: 10px; /* Add space below heading */
+}
